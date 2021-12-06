@@ -10,7 +10,7 @@ from sklearn.model_selection import train_test_split
 #rubric: scikit-learn/Keras
 #https://www.kaggle.com/bayunova/is-this-sentence-completed
 st.title("Final-app")
-df = pd.read_json("/Users/jiahaoqiu/Documents/UCI\ 2021\ Fall/Math\ 10/finished_sentences.json")
+df = pd.read_json("finished_sentences.json")
 #create a set of punctuation as filter
 exclude = set(string.punctuation)
 def rem_punc(text):
