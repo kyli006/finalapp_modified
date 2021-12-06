@@ -1,3 +1,4 @@
+import streamlit as st
 import pandas as pd
 import string
 import numpy as np
@@ -6,7 +7,6 @@ from tensorflow import keras
 import matplotlib.pyplot as plt
 import altair as alt
 from sklearn.model_selection import train_test_split
-import streamlit as st
 #rubric: scikit-learn/Keras
 #https://www.kaggle.com/bayunova/is-this-sentence-completed
 st.title("Final-app")
