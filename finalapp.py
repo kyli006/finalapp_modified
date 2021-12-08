@@ -87,5 +87,5 @@ df1['correctness'] = (df1['Prediction'] == df1['Actual'])
 #a.append(text)
 #text_token = string_to_num(a)
 #st.write(category[model.predict(text_token).argmax(axis = 1)[0]])
-
+st.write("check out this [link](https://github.com/kyli006)")
 st.write("The coding part about tokenizing string to numeric values refer to the author in #https://www.kaggle.com/bayunova/is-this-sentence-completed")
